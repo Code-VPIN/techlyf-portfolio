@@ -1,438 +1,588 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="MERN Stack Developer, I specialize in crafting robust web
+    applications using MongoDB, Express.js, React, and Node.js. With a
+    passion for creating dynamic and user-friendly interfaces, I
+    leverage my expertise to build scalable, efficient, and responsive
+    web solutions." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, BootStrap, Front-end Development, Web Development, Responsive Design, Mobile App Design, Porfolio ShowCase, code samples, creative projects, digital marketing, seo rankings, software engineering, seo optization, client work examples, mern stack developer, mongodb, expressjs, nodejs, reactjs." />
+    <meta name="author" content="Vipin Saroj" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Techlyf</title>
-   </head>
-   <body>
-      <!-- HEADER -->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#home" class="nav__logo">
-               <span class="nav__logo-circle">TLF</span>
-               <span class="nav__logo-name">Techlyf.</span>
+    <title>Techlyf</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">
+          <span class="nav__logo-circle">TLF</span>
+          <span class="nav__logo-name">Techlyf.</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+          <h3 class="nav__name">TLF</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button">Hire Me</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Vipin Saroj</h1>
+
+          <div class="home__profile">
+            <!--need to comment-->
+            <div class="home__image">
+              <img src="assets/img/home-profile.jpg" alt="" class="home__img" />
+              <div class="home__shadow"></div>
+              <img
+                src="assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
+
+              <div class="geometric-box"></div>
+            </div>
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/vipin_saroj_/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pycore/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/Code-VPIN"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>MERN Stack Developer </b>, I specialize in crafting robust web
+              applications using MongoDB, Express.js, React, and Node.js. With a
+              passion for creating dynamic and user-friendly interfaces, I
+              leverage my expertise to build scalable, efficient, and responsive
+              web solutions.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+              <span class="home__scroll-text">Scroll Down</span>
             </a>
-            <div class="nav__menu" id="nav-menu">
-               <span class="nav__title">Menu</span>
-               <h3 class="nav__name">TLF</h3>
-               <ul class="nav__list">
+          </div>
+        </div>
+      </section>
 
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
-                  </li>
+      <!-- about section -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">About ME</h2>
+          <!-- add here product details -->
 
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">About Me</a>
-                  </li>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="assets/img/about-perfil.jpg"
+                alt="image"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
 
-                  <li class="nav__item">
-                     <a href="#projects" class="nav__link">Projects</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="#contact" class="nav__link nav__link-button">Hire Me</a>
-                  </li>
-               </ul>
-
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
             </div>
-            <div class="nav__buttons">
+          </div>
 
-               <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="about__info">
+            <p class="about__description">
+              Recently completed
+              <b>Master of Computer Applications (MCA)</b> degree from the
+              <b>Institute of Engineering and Technology, Lucknow.</b> During my
+              academic journey, I gained a strong foundation in software
+              development and honed my skills in the MERN (MongoDB, Express.js,
+              React, Node.js) stack. <br />
+              <b>Achievements & Certification</b>
+            </p>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>Complete Web Development BootCamp 2023 - Udemy </b>
+              </li>
+            </ul>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>Certified Python Developer, Django/Flask - Udemy</b>
+              </li>
+            </ul>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>React Bootcamp Participation Certificate - Scaler </b>
+              </li>
+            </ul>
+            <ul class="about__list">
+              <li class="about__item">
+                <b> Strong Foundation in Data Structure and Algorithm </b>
+              </li>
+            </ul>
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Hire Me
+              </a>
 
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-4-line"></i>
-               </div>
+              <a
+                href="https://www.linkedin.com/in/pycore/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services section -->
+      <section class="services section" id="hirefor">
+        <h2 class="section__title-2">
+          <span>Hire me For.</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-line-chart-fill"></i>
+              </div>
+
+              <h2 class="services__title">Data Analytics</h2>
+              <p class="services__description">
+                Power BI and Microsoft Excel help me analyze and visualize data
+                in user-friendly formats, enabling businesses to utilize data
+                effectively for revenue generation.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-advertisement-line"></i>
+              </div>
+
+              <h2 class="services__title">Digital Marketing</h2>
+              <p class="services__description">
+                Digital marketing leverages online channels and strategies to
+                reach and engage target audiences, driving businesses to grow
+                and achieve revenue goals.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h2 class="services__title">Custom Integration</h2>
+              <p class="services__description">
+                Custom integration, often achieved through API integration,
+                enables seamless connections between different software systems,
+                streamlining processes and improving efficiency in various
+                business operations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- projects section -->
+
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Projects.</span>
+        </h2>
+        <div class="projects__container container grid">
+          <!-- 1st card -->
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-1.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://astounding-alpaca-cb44fb.netlify.app/"
+                class="projects__button button"
+                target="_blank"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
             </div>
 
-         </nav>         
-      </header>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">ReactJs, TailwindCSS</h3>
+              <h2 class="projects__title">Nike Landing Page Clone</h2>
 
-     <!-- MAIN -->
-      <main class="main">
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <h1 class="home__name">Vipin Saroj</h1>
-
-               <div class="home__profile"> <!--need to comment-->
-                  <div class="home__image">
-                     <img src="assets/img/home-profile.jpg" alt="" class="home__img">
-                     <div class="home__shadow"></div>
-                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
-
-                     <div class="geometric-box"></div>
-                  </div>
-                  <div class="home__social">
-                     <a href="https://www.instagram.com/vipin_saroj_/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-                     <a href="https://www.linkedin.com/in/pycore/" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                     <a href="https://github.com/Code-VPIN" target="_blank" class="home__social-link">
-                        <i class="ri-github-line"></i>
-                     </a>
-                  </div>
-               </div>
-               <div class="home__info">
-                  <p class="home__description">
-                     <b>MERN Stack Developer </b>, I specialize in crafting robust web applications using MongoDB, Express.js, React, and Node.js. With a passion for creating dynamic and user-friendly interfaces, I leverage my expertise to build scalable, efficient, and responsive web solutions.</p>
-                  <a href="#about" class="home__scroll">
-                     <div class="home__scroll-box">
-                        <i class="ri-arrow-down-s-line"></i>
-                     </div>
-                     <span class="home__scroll-text">Scroll Down</span>
-                  </a>
-               </div>
+              <p class="projects__description">
+                I successfully created a Nike Landing Page Clone using React.js
+                and Tailwind CSS. The project involved replicating the official
+                website's design and functionality, setting up components,
+                handling data, adding interactivity, optimizing performance, and
+                deploying the clone.
+              </p>
             </div>
-         </section>
 
-        <!-- about section -->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <h2 class="section__title-1">
-                  About ME
-               </h2> <!-- add here product details -->
+            <div class="projects__buttons">
+              <a
+                href="https://astounding-alpaca-cb44fb.netlify.app/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-eye-line"></i> PreView
+              </a>
 
-               <div class="about__perfil">
-                  <div class="about__image">
-                     <img src="assets/img/about-perfil.jpg" alt="image" class="about__img">
-                     <div class="about__shadow"></div>
-
-                     <div class="geometric-box"></div>
-                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                     <div class="about__box"></div>
-                  </div>
-               </div>
-
-               <div class="about__info">
-                  <p class="about__description">
-                     Recently completed <b>Master of Computer Applications (MCA)</b> degree from the <b>Institute of Engineering and Technology, Lucknow.</b> During my academic journey, I gained a strong foundation in software development and honed my skills in the MERN (MongoDB, Express.js, React, Node.js) stack. <br> <b>Achievements & Certification</b> </p>
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b>Complete Web Development BootCamp 2023 - Udemy </b>
-                     </li>
-                  </ul>
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b>Certified Python Developer, Django/Flask - Udemy</b>
-                     </li>
-                  </ul>
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b>React Bootcamp Participation Certificate - Scaler </b>
-                     </li>
-                  </ul>
-                  <ul class="about__list">
-                     <li class="about__item">
-                        <b> Strong Foundation in Data Structure and Algorithm </b>
-                     </li>
-                  </ul>
-                  <div class="about__buttons">
-                     <a href="#contact" class="button">
-                        <i class="ri-send-plane-line"></i> Hire Me
-                     </a>
-
-                     <a href="https://www.linkedin.com/in/pycore/" target="_blank" class="button__ghost">
-                        <i class="ri-linkedin-box-line"></i>
-                     </a>
-                  </div>
-               </div>
+              <!-- <a href="/" target="_blank" class="projects__link">
+                        <i class="ri-mail-send-line"></i> Book Demo
+                     </a> -->
             </div>
-            
-         </section>
+          </article>
 
-         <!-- services section -->
-         <section class="services section" id="hirefor">
+          <!-- 2nd card -->
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-2.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://github.com/Code-VPIN/React_training/tree/main/ecommerce%20website/project1"
+                class="projects__button button"
+                target="_blank"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Reactjs + TailwindCSS</h3>
+              <h2 class="projects__title">Basic Front Page</h2>
+
+              <p class="projects__description">
+                I successfully created a Nike Landing Page Clone using React.js
+                and Tailwind CSS. The project involved replicating the official
+                website's design and functionality, setting up components,
+                handling data, adding interactivity, optimizing performance, and
+                deploying the clone.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/Code-VPIN/React_training/tree/main/ecommerce%20website/project1"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-eye-line"></i> Code Review
+              </a>
+
+              <!-- <a href="/" target="_blank" class="projects__link">
+                        <i class="ri-mail-send-line"></i> Book Demo
+                     </a> -->
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/project-3.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://start.tpstech.in/"
+                class="projects__button button"
+                target="_blank"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Html, JavaScript, BootStrap</h3>
+              <h2 class="projects__title">End to End Landing page</h2>
+
+              <p class="projects__description">
+                I developed a front-end web page using HTML, JavaScript, and
+                Bootstrap. The project involved creating a responsive and
+                interactive user interface with Bootstrap's CSS framework and
+                enhancing functionality with JavaScript for a seamless user
+                experience.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://start.tpstech.in/"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-eye-line"></i> PreView
+              </a>
+
+              <!-- <a href="/" target="_blank" class="projects__link">
+                        <i class="ri-mail-send-line"></i> Book Demo
+                     </a> -->
+            </div>
+          </article>
+          <!-- add cards here if more projects introduced -->
+        </div>
+      </section>
+
+      <!-- Contact Us Section -->
+
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-               <span>Hire me For.</span>
+              <span>Hire ME</span>
             </h2>
 
-            <div class="services__container container grid">
-               <article class="services__card">
-                  <div class="services__border"></div>
+            <p class="contact__description-1">
+              Interested in hiring? Reach out to me today to discuss your needs.
+            </p>
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-line-chart-fill"></i>
-                     </div>
+            <p class="contact__description-2">
+              Kindly fill your <b>Name,</b> <b>e-mail,</b> <b>Subject</b> and
+              <b>Message</b>, to understand your needs.
+            </p>
 
-                     <h2 class="services__title">Data Analytics</h2>
-                     <p class="services__description">Power BI and Microsoft Excel help me analyze and visualize data in user-friendly formats, enabling businesses to utilize data effectively for revenue generation.</p>
-                  </div>
-               </article>
+            <div class="geometric-box"></div>
+          </div>
 
-               <article class="services__card">
-                  <div class="services__border"></div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send A Message to Hire</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="Full Name"
+                  />
+                  <label for="name" class="contact__label">Full Name</label>
+                </div>
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-advertisement-line"></i>
-                     </div>
-
-                     <h2 class="services__title">Digital Marketing</h2>
-                     <p class="services__description">Digital marketing leverages online channels and strategies to reach and engage target audiences, driving businesses to grow and achieve revenue goals.</p>
-                  </div>
-               </article>
-
-               <article class="services__card">
-                  <div class="services__border"></div>
-
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-code-box-line"></i>
-                     </div>
-
-                     <h2 class="services__title">Custom Integration</h2>
-                     <p class="services__description">Custom integration, often achieved through API integration, enables seamless connections between different software systems, streamlining processes and improving efficiency in various business operations.</p>
-                  </div>
-               </article>
-            </div>
-            
-         </section>
-
-         <!-- projects section -->
-
-         <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-               <span>Projects.</span>
-            </h2>
-            <div class="projects__container container grid">
-
-               <!-- 1st card -->
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-1.jpg" alt="image" class="projects__img">
-                     <a href="https://astounding-alpaca-cb44fb.netlify.app/" class="projects__button button" target="_blank">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">ReactJs, TailwindCSS</h3>
-                     <h2 class="projects__title"> Nike Landing Page Clone </h2>
-
-                     <p class="projects__description">
-                        I successfully created a Nike Landing Page Clone using React.js and Tailwind CSS. The project involved replicating the official website's design and functionality, setting up components, handling data, adding interactivity, optimizing performance, and deploying the clone.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://astounding-alpaca-cb44fb.netlify.app/" target="_blank" class="projects__link">
-                        <i class="ri-eye-line"></i> PreView
-                     </a>
-
-                     <!-- <a href="/" target="_blank" class="projects__link">
-                        <i class="ri-mail-send-line"></i> Book Demo
-                     </a> -->
-                  </div>
-               </article>
-
-               <!-- 2nd card -->
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-2.jpg" alt="image" class="projects__img">
-                     <a href="https://github.com/Code-VPIN/React_training/tree/main/ecommerce%20website/project1" class="projects__button button" target="_blank">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle"> Reactjs + TailwindCSS </h3>
-                     <h2 class="projects__title"> Basic Front Page </h2>
-
-                     <p class="projects__description">
-                        I successfully created a Nike Landing Page Clone using React.js and Tailwind CSS. The project involved replicating the official website's design and functionality, setting up components, handling data, adding interactivity, optimizing performance, and deploying the clone.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://github.com/Code-VPIN/React_training/tree/main/ecommerce%20website/project1" target="_blank" class="projects__link">
-                        <i class="ri-eye-line"></i> Code Review
-                     </a>
-
-                     <!-- <a href="/" target="_blank" class="projects__link">
-                        <i class="ri-mail-send-line"></i> Book Demo
-                     </a> -->
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/project-3.jpg" alt="image" class="projects__img">
-                     <a href="https://start.tpstech.in/" class="projects__button button" target="_blank">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Html, JavaScript, BootStrap</h3>
-                     <h2 class="projects__title"> End to End Landing page </h2>
-
-                     <p class="projects__description">
-                        I developed a front-end web page using HTML, JavaScript, and Bootstrap. The project involved creating a responsive and interactive user interface with Bootstrap's CSS framework and enhancing functionality with JavaScript for a seamless user experience.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://start.tpstech.in/" target="_blank" class="projects__link">
-                        <i class="ri-eye-line"></i> PreView
-                     </a>
-
-                     <!-- <a href="/" target="_blank" class="projects__link">
-                        <i class="ri-mail-send-line"></i> Book Demo
-                     </a> -->
-                  </div>
-               </article>
-                  <!-- add cards here if more projects introduced -->
-
-            </div>            
-         </section>
-
-         <!-- Contact Us Section -->
-
-         <section class="contact section" id="contact">
-            <div class="contact__container grid">
-               <div class="contact__data">
-                  <h2 class="section__title-2">
-                     <span>Hire ME</span>
-                  </h2>
-
-                  <p class="contact__description-1">
-                     Interested in hiring? Reach out to me today to discuss your needs.
-                  </p>
-
-                  <p class="contact__description-2">
-                     Kindly fill your <b>Name,</b>  <b>e-mail,</b> <b>Subject</b> and <b>Message</b>, to understand your needs.
-                  </p>
-
-                  <div class="geometric-box"></div>
-               </div>
-
-               <div class="contact__mail">
-                  <h2 class="contact__title">
-                     Send A Message to Hire
-                  </h2>
-                  <form action="" class="contact__form" id="contact-form">
-                     <div class="contact__group">
-                        <div class="contact__box">
-                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Full Name">
-                           <label for="name" class="contact__label">Full Name</label>
-                        </div>
-
-                        <!-- <div class="contact__box">
+                <!-- <div class="contact__box">
                            <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Last Name">
                            <label for="name" class="contact__label">Last Name</label>
                         </div> -->
 
-                        <div class="contact__box">
-                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="E-Mail">
-                           <label for="email" class="contact__label">E-mail</label>
-                        </div>
-                     </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="E-Mail"
+                  />
+                  <label for="email" class="contact__label">E-mail</label>
+                </div>
+              </div>
 
-                     <div class="contact__box">
-                        <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                        <label for="subject" class="contact__label">Subject</label>
-                     </div>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
 
-                     <div class="contact__box contact__area">
-                        <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                        <label for="message" class="contact__label">Message</label>
-                     </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
 
-                     <p class="contact__message" id="contact-message"></p>
+              <p class="contact__message" id="contact-message"></p>
 
-                     <button type="submit" class="contact__button button">
-                        <i class="ri-send-plane-line"></i> Send Message 
-                     </button>
-                  </form>
-               </div>
-               <div class="contact__social">
-                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-                  <div class="contact__social-data">
-                     <div>
-                        <p class="contact__social-description-1">
-                           Too busy to write an e-mail.
-                        </p>
-                        <p class="contact__social-description-2">
-                           Write on our social networks.
-                        </p>
-                     </div>
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Too busy to write an e-mail.
+                </p>
+                <p class="contact__social-description-2">
+                  Write on our social networks.
+                </p>
+              </div>
 
-                     <div class="contact__social-links">
-                        <a href="https://www.facebook.com/VIPINSAROJ405/" target="_blank" class="contact__social-link">
-                           <i class="ri-facebook-circle-line"></i>
-                        </a>
-                        <a href="https://www.instagram.com/vipin_saroj_/" target="_blank" class="contact__social-link">
-                           <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/pycore/" target="_blank" class="contact__social-link">
-                           <i class="ri-linkedin-box-line"></i>
-                        </a>
-                     </div>
-
-                  </div>
-               </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/VIPINSAROJ405/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/vipin_saroj_/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/pycore/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
             </div>
-            
-         </section>
-      </main>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <!-- footer work goes here -->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <ul class="footer__links">
-               <li>
-                  <a href="#about" class="footer__link">About</a>
-               </li>
+    <!-- footer work goes here -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
 
-               <li>
-                  <a href="#hirefor" class="footer__link">Hire For</a>
-               </li>
+          <li>
+            <a href="#hirefor" class="footer__link">Hire For</a>
+          </li>
 
-               <li>
-                  <a href="#projects" class="footer__link">Projects</a>
-               </li>
-            </ul>
-            <span class="footer__copy">
-               &#169; All Rights Reserved By
-               <a href="#">Vipin Saroj</a>
-            </span>
-         </div>
-         
-      </footer>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="#">Vipin Saroj</a>
+        </span>
+      </div>
+    </footer>
 
-      <!-- scrolling up effect -->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
-      
+    <!-- scrolling up effect -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
 
-      <!-- scroll animation js -->
-      <script src="assets/js/scrollreveal.min.js"></script>
-      
-      <!-- email request js -->
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-      
+    <!-- scroll animation js -->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-     <!-- main.js -->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!-- email request js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- main.js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
